@@ -10,7 +10,9 @@ Data data;
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.println("Config activated!");
+
+    Serial.begin(9600);
     controller = Controller();
     socket = Socket(81);
     data = Data();
