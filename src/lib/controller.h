@@ -29,7 +29,6 @@ class Controller
 
     BMP280 bmp = BMP280(1018, 0x76);
     MPU6050 mpu = MPU6050();
-    Socket socket = Socket(80);
     SG90 sg90 = SG90(8);
 
     Chrono liftoff_timer;
