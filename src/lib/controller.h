@@ -32,11 +32,11 @@ class Controller
     Socket socket = Socket(80);
     SG90 sg90 = SG90(8);
 
-    // Chrono liftoff_timer;
-    // Chrono upload_timer;
-    // Chrono record_timer;
-    // Chrono speed_timer;
-    // Chrono apogee_timer;
+    Chrono liftoff_timer;
+    Chrono upload_timer;
+    Chrono record_timer;
+    Chrono speed_timer;
+    Chrono apogee_timer;
 
     int upload_refresh_rate = 0;
     int record_refresh_rate = 0;
